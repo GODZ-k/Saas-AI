@@ -1,4 +1,3 @@
-import React from 'react'
 import Sidebar from '../Header_Footer/Sidebar/Sidebar'
 import DashboardPage from './DashboardPage'
 
