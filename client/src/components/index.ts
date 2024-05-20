@@ -6,6 +6,9 @@ import Home from "./home/Home.tsx";
 import Sidebar from "./Header_Footer/Sidebar/Sidebar.tsx";
 import Dashboard from "./Dashboard/Dashboard.tsx";
 import SidebarMenu from "./Header_Footer/Sidebar/SidebarMenu.tsx";
+import Conversation from "./Dashboard/conversation/Conversation.tsx";
+import ImageGen from "./Dashboard/ImageGeneration/ImageGen.tsx";
+
 export {
     Signin,
     Signup,
@@ -14,5 +17,7 @@ export {
     Home,
     Sidebar,
     Dashboard,
-    SidebarMenu
+    SidebarMenu,
+    Conversation,
+    ImageGen
 }

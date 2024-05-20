@@ -3,6 +3,7 @@ import {
   Card,
 } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
+import Dashboard from "./Dashboard";
 
 function DashboardPage() {
 
@@ -47,6 +48,8 @@ function DashboardPage() {
 
   ];
   return (
+
+    <Dashboard>
     <div className=" m-8 space-y-4">
       <h2 className=" text-2xl md:text-3xl font-bold text-center">
         Explore the power of AI
@@ -74,6 +77,8 @@ function DashboardPage() {
         ))}
       </div>
     </div>
+    </Dashboard>
+
   );
 }
 

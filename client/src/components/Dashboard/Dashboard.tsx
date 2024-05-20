@@ -1,12 +1,11 @@
 import Sidebar from '../Header_Footer/Sidebar/Sidebar'
-import DashboardPage from './DashboardPage'
 
-function Dashboard() {
+function Dashboard({children}:any) {
   return (
    <div>
       <Sidebar/>
     <main className=' text-black md:pl-72'>
-      <DashboardPage/>
+      {children}
     </main>
    </div>
   )
